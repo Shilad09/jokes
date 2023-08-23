@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital@1&family=Poppins:wght@200&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Asap Condensed', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+#joke-head {
+  display: flex;
+  justify-content: center;
+}
+
+.jokes-area {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#joke-qstn {
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  height: 80px;
+  width: 400px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+#joke-ans {
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  height: 80px;
+  width: 400px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.btn-joke {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-joke button:hover {
+  cursor: pointer;
+}
+
+.btn-joke button {
+  border: none;
+  background-color: green;
+  color: white;
+  width: 150px;
+  height: 30px;
+}
